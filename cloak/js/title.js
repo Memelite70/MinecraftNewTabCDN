@@ -4,6 +4,4 @@ var src=document.getElementById('framed');
   alert(src);
   setTimeout(setTitle, 250);
 };
-document.addEventListener('DOMContentLoaded', function(){
-  setTitle();
-});
+setTitle();
